@@ -1,0 +1,41 @@
+<svg viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="gemClipFavicon">
+      <path d="M75 20 C 90 35, 100 55, 108 78 C 114 98, 108 118, 90 126 C 82 130, 68 130, 60 126 C 42 118, 36 98, 42 78 C 50 55, 60 35, 75 20 Z"/>
+    </clipPath>
+    <linearGradient id="tableGradFavicon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf3ef"/>
+      <stop offset="100%" stop-color="#f3cec8"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="rotate(180 75 75)">
+    <g clip-path="url(#gemClipFavicon)">
+      <rect x="30" y="18" width="90" height="115" fill="#e79992"/>
+      <polygon points="75.0,20.0 75.0,38.6 94.0,40.0" fill="#f6c7bd"/>
+      <polygon points="94.0,40.0 75.0,38.6 87.9,52.2" fill="#e58e83"/>
+      <polygon points="94.0,40.0 87.9,52.2 108.0,78.0" fill="#eda99e"/>
+      <polygon points="108.0,78.0 87.9,52.2 97.4,78.0" fill="#da766c"/>
+      <polygon points="108.0,78.0 97.4,78.0 104.0,102.0" fill="#e58e83"/>
+      <polygon points="104.0,102.0 97.4,78.0 94.7,94.3" fill="#f6c7bd"/>
+      <polygon points="104.0,102.0 94.7,94.3 90.0,126.0" fill="#da766c"/>
+      <polygon points="90.0,126.0 94.7,94.3 85.2,110.6" fill="#eda99e"/>
+      <polygon points="90.0,126.0 85.2,110.6 75.0,130.0" fill="#f6c7bd"/>
+      <polygon points="75.0,130.0 85.2,110.6 75.0,113.4" fill="#e58e83"/>
+      <polygon points="75.0,130.0 75.0,113.4 60.0,126.0" fill="#eda99e"/>
+      <polygon points="60.0,126.0 75.0,113.4 64.8,110.6" fill="#da766c"/>
+      <polygon points="60.0,126.0 64.8,110.6 46.0,102.0" fill="#e58e83"/>
+      <polygon points="46.0,102.0 64.8,110.6 55.3,94.3" fill="#f6c7bd"/>
+      <polygon points="46.0,102.0 55.3,94.3 42.0,78.0" fill="#da766c"/>
+      <polygon points="42.0,78.0 55.3,94.3 52.6,78.0" fill="#eda99e"/>
+      <polygon points="42.0,78.0 52.6,78.0 56.0,40.0" fill="#f6c7bd"/>
+      <polygon points="56.0,40.0 52.6,78.0 62.1,52.2" fill="#e58e83"/>
+      <polygon points="56.0,40.0 62.1,52.2 75.0,20.0" fill="#eda99e"/>
+      <polygon points="75.0,20.0 62.1,52.2 75.0,38.6" fill="#da766c"/>
+      <polygon points="75.0,38.6 87.9,52.2 97.4,78.0 94.7,94.3 85.2,110.6 75.0,113.4 64.8,110.6 55.3,94.3 52.6,78.0 62.1,52.2" fill="url(#tableGradFavicon)"/>
+    </g>
+
+    <path d="M75 20 C 90 35, 100 55, 108 78 C 114 98, 108 118, 90 126 C 82 130, 68 130, 60 126 C 42 118, 36 98, 42 78 C 50 55, 60 35, 75 20 Z" fill="none" stroke="#c06b6a" stroke-width="2.5"/>
+  </g>
+</svg>
+
