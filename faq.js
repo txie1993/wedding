@@ -20,6 +20,6 @@ const FAQ_ITEMS = [
   },
   {
     question: "What's the seating like?",
-    answer: "Dinner is served banquet-style at round tables of ten, with six or seven courses. (performs gesture)"
+    answer: "Dinner is served banquet-style at round tables of ten."
   }
 ];
