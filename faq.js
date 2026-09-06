@@ -12,7 +12,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "Are kids welcome?",
-    answer: "Yes! There will be many families. Please be sure to provide an accurate headcount when RSVPing."
+    answer: "Yes! There will be many families present."
   },
   {
     question: "Is parking available?",
