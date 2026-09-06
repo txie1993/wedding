@@ -8,7 +8,7 @@
 const FAQ_ITEMS = [
   {
     question: "Is there a dress code?",
-    answer: "The dress code will be semi-formal or business casual."
+    answer: "We will follow a black tie dress code. Black ties optional."
   },
   {
     question: "Are kids welcome?",
@@ -21,5 +21,9 @@ const FAQ_ITEMS = [
   {
     question: "What's the seating like?",
     answer: "Dinner is served banquet-style at round tables of ten."
+  },
+  {
+    question: "Are there accomodations for dietary restrictions?",
+    answer: "No, but each dish is made separately. Please view the banquet menu if you have any concerns."
   }
 ];
