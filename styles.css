@@ -592,6 +592,12 @@
     text-align:center;
     padding:8px;
   }
+  .gallery-photo{
+    width:100%;
+    aspect-ratio:1;
+    object-fit:cover;
+    display:block;
+  }
 
   /* ---------- Footer ---------- */
   footer{

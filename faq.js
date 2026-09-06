@@ -20,10 +20,10 @@ const FAQ_ITEMS = [
   },
   {
     question: "What's the seating like?",
-    answer: "Dinner is served banquet-style at round tables of ten."
+    answer: "Dinner is served banquet-style, family-style at round tables of ten."
   },
   {
     question: "Are there accomodations for dietary restrictions?",
-    answer: "No, but each dish is made separately. Please view the banquet menu if you have any concerns."
+    answer: "Please contact Tony at wedding@tonyxie.co for any dietary accomodations. The anticipated banquet menu is available below for viewing."
   }
 ];
