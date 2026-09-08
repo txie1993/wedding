@@ -20,13 +20,13 @@
     <span class="brand" id="navBrand">Loading…</span>
     <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList">MENU</button>
     <ul id="navList">
-      <li><a href="#story">Our Story</a></li>
+      <li><a href="#rsvp">RSVP</a></li>
       <li><a href="#details">Time & Place</a></li>
       <li><a href="#schedule">Schedule</a></li>
-      <li><a href="#rsvp">RSVP</a></li>
-      <li><a href="#registry">Gifts</a></li>
       <li><a href="#faq">FAQ</a></li>
       <li><a href="#menu">Menu</a></li>
+      <li><a href="#registry">Red Envelopes</a></li>
+      <li><a href="#story">Our Story</a></li>
     </ul>
   </div>
 </nav>
@@ -91,35 +91,12 @@
   <span class="scroll-cue">Scroll ↓</span>
 </header>
 
-<section id="story">
-  <div class="section-head">
-    <h2>Every thread led here</h2>
-  </div>
-  <div class="timeline" id="timeline">
-    <div class="timeline-item">
-      <span class="knot-mark"><img src="images/node-jie.svg" alt="結"></span>
-      <span class="when">Where it started</span>
-      <h3>How we met</h3>
-      <p>Our first meeting began at an unassuming Asian diner in Sunnyvale, followed by an adventure through the chai aisle at a nearby Indian supermarket, and finished with dessert at Molly Tea. We both knew something was special about each other right away.</p>
-    </div>
-    <div class="timeline-item">
-      <span class="knot-mark"><img src="images/node-jie.svg" alt="結"></span>
-      <span class="when">Soon after</span>
-      <h3>As time went on</h3>
-      <p>We traveled to new destinations, accomplished new goals, and took on new challenges (like running a 10K and planting trees!). We've pushed each other to be the best version of ourselves physically and personally, but always remembering to stop to enjoy a cup of tea.</p>
-    </div>
-    <div class="timeline-item">
-      <span class="knot-mark"><img src="images/node-jie.svg" alt="結"></span>
-      <span class="when">Recently</span>
-      <h3>We got married!</h3>
-      <p>On August 25th, 2026, we were officially joined in marriage at the lovely San Francisco City Hall! This, too, was followed by lunch and milk tea.</p>
-    </div>
-    <div class="timeline-item">
-      <span class="knot-mark"><img src="images/node-xi.svg" alt="囍"></span>
-      <span class="when" id="storyWeddingDate">Date</span>
-      <h3>The banquet</h3>
-      <p>We're so excited to celebrate our marriage with you, our friends and family!</p>
-    </div>
+<section id="rsvp">
+  <div class="rsvp-box">
+    <h2>We'd love to know you're coming</h2>
+    <span class="deadline" id="rsvpDeadline">Please respond soon</span>
+    <p>Let us know if you'll be joining us, and don't forget to note any dietary restrictions.</p>
+    <a class="btn" id="rsvpButton" href="https://forms.gle/tYVZYcoCvAhyVro4A" target="_blank" rel="noopener">RSVP now</a>
   </div>
 </section>
 
@@ -155,25 +132,6 @@
   </div>
 </section>
 
-<section id="rsvp">
-  <div class="rsvp-box">
-    <h2>We'd love to know you're coming</h2>
-    <span class="deadline" id="rsvpDeadline">Please respond soon</span>
-    <p>Let us know if you'll be joining us, and don't forget to note any dietary restrictions.</p>
-    <a class="btn" id="rsvpButton" href="https://forms.gle/tYVZYcoCvAhyVro4A" target="_blank" rel="noopener">RSVP now</a>
-  </div>
-</section>
-
-<section id="registry">
-  <div class="section-head">
-    <h2>红包 · Red Envelopes</h2>
-  </div>
-  <div class="envelope-card">
-    <div class="envelope-seal"><img src="images/char-xi-seal.svg" alt="囍"></div>
-    <p>Following tradition, red envelopes are gratefully welcomed at the reception table and are the customary way to celebrate with us. No gift is required, and your presence at the banquet is the real gift.</p>
-  </div>
-</section>
-
 <section id="faq">
   <div class="section-head">
     <h2>Frequently asked questions</h2>
@@ -192,6 +150,48 @@
       <div class="accordion-panel">
         <ul class="menu-list" id="menuList"></ul>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="registry">
+  <div class="section-head">
+    <h2>红包 · Red Envelopes</h2>
+  </div>
+  <div class="envelope-card">
+    <div class="envelope-seal"><img src="images/char-xi-seal.svg" alt="囍"></div>
+    <p>Following tradition, red envelopes are gratefully welcomed at the reception table and are the customary way to celebrate with us. No gift is required, and your presence at the banquet is the real gift.</p>
+  </div>
+</section>
+
+<section id="story">
+  <div class="section-head">
+    <h2>Every thread led here</h2>
+  </div>
+  <div class="timeline" id="timeline">
+    <div class="timeline-item">
+      <span class="knot-mark"><img src="images/node-jie.svg" alt="結"></span>
+      <span class="when">Where it started</span>
+      <h3>How we met</h3>
+      <p>Our first meeting began at an unassuming Asian diner in Sunnyvale, followed by an adventure through the chai aisle at a nearby Indian supermarket, and finished with dessert at Molly Tea. We both knew something was special about each other right away.</p>
+    </div>
+    <div class="timeline-item">
+      <span class="knot-mark"><img src="images/node-jie.svg" alt="結"></span>
+      <span class="when">Soon after</span>
+      <h3>As time went on</h3>
+      <p>We traveled to new destinations, accomplished new goals, and took on new challenges (like running a 10K and planting trees!). We've pushed each other to be the best version of ourselves physically and personally, but always remembering to stop to enjoy a cup of tea.</p>
+    </div>
+    <div class="timeline-item">
+      <span class="knot-mark"><img src="images/node-jie.svg" alt="結"></span>
+      <span class="when">Recently</span>
+      <h3>We got married!</h3>
+      <p>On August 25th, 2026, we were officially joined in marriage at the lovely San Francisco City Hall! This, too, was followed by lunch and milk tea.</p>
+    </div>
+    <div class="timeline-item">
+      <span class="knot-mark"><img src="images/node-xi.svg" alt="囍"></span>
+      <span class="when" id="storyWeddingDate">Date</span>
+      <h3>The banquet</h3>
+      <p>We're so excited to celebrate our marriage with you, our friends and family!</p>
     </div>
   </div>
 </section>
