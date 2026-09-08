@@ -25,8 +25,8 @@ const CONFIG = {
 
   rsvp: {
     // A Google Form, Zola/Knot RSVP page, or "mailto:you@example.com"
-    link: "https://forms.gle/your-form-id",
-    deadline: "May 1, 2027"
+    link: "https://forms.gle/tYVZYcoCvAhyVro4A",
+    deadline: "October 13, 2026"
   },
 
   // Optional — leave links as "" to hide a registry entry entirely
