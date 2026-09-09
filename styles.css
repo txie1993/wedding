@@ -343,6 +343,8 @@
     border:1px solid var(--line);
     border-top:3px solid var(--cinnabar);
     padding:32px 28px;
+    display: flex;
+    flex-direction: column;;
   }
   .detail-card h3{font-size:1.4rem; margin-bottom:12px;}
   .detail-card address{
@@ -363,6 +365,25 @@
     text-decoration:none;
     border-bottom:1px solid var(--cinnabar);
     padding-bottom:2px;
+  }
+  .map-btn{
+    display:inline-block;
+    margin-top:16px;
+    padding:10px 24px;
+    background:var(--cinnabar);
+    color:var(--paper);
+    text-decoration:none;
+    border-radius:999px;
+    font-size:1rem;
+    letter-spacing:0.02em;
+    border:none;
+    cursor:pointer;
+    transition:background 0.2s ease, transform 0.2s ease;
+    align-self: center;
+  }
+  .map-btn:hover{
+    background:var(--cinnabar-deep);
+    transform:translateY(-1px);
   }
 
   /* ---------- Schedule ---------- */
@@ -395,24 +416,27 @@
   /* ---------- RSVP ---------- */
   .rsvp-box{
     text-align:center;
-    background:var(--ink);
+    background:#f6c7bd;
     color:var(--paper);
     padding:64px 40px;
-    border-radius:var(--radius);
+    border: 10px double var(--cinnabar);
     max-width:var(--card-w);
     margin:0 auto;
   }
-  .rsvp-box h2{color:var(--paper);}
-  .rsvp-box p{color:#d8cfc2; max-width:48ch; margin:14px auto 30px;}
+  .rsvp-box h2{color:var(--ink-soft);}
+  .rsvp-box p{color:var(--ink-soft); max-width:48ch; margin:14px auto 30px;}
   .rsvp-box .deadline{
     font-family:'Work Sans', sans-serif;
     font-weight:600;
-    font-size:0.75rem;
+    font-size:1.5rem;
     letter-spacing:0.1em;
     text-transform:uppercase;
-    color:var(--gold);
+    color:var(--ink);
     display:block;
     margin-bottom:18px;
+  }
+  .rsvp-box .cursive {
+    font-size: 38px;
   }
   .btn{
     display:inline-block;
@@ -474,6 +498,26 @@
     color:#fbe8de;
     max-width:56ch;
     margin:0 auto;
+  }
+  .white-bold-message {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    margin: 0;
+    color: var(--paper);
+    font-size: 25px;
+    text-align: center;
+  }
+  .dark-italic-message {
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    color: var(--ink-soft);
+    max-width: 56ch;
+    margin: 0 auto;
+  }
+  .dark-italic-message a{
+    color: var(--ink-soft);
+    text-decoration: none;
   }
   .registry-list{
     display:flex;
@@ -613,3 +657,8 @@
   }
   footer p{color:var(--ink-soft); font-size:0.88rem;}
   footer a{color:var(--cinnabar-deep);}
+
+  
+  .cursive {
+    font-family: "Great Vibes", cursive;
+  }

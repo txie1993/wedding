@@ -17,7 +17,7 @@ const CONFIG = {
   banquetCity: "San Jose, CA",
 
   banquet: {
-    venue: "Dynasty Chinese Cuisine",
+    venue: "Dynasty Chinese Cuisine 王朝海鮮酒家",
     address: "1001 Story Road, San Jose, CA",
     time: "5:30 PM",
     mapLink: "https://maps.app.goo.gl/sf4uWisWZz4mEUAK6"
